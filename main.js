@@ -16,8 +16,9 @@ function changePage(){
 
   }else if(location.hash === "#page-3"){
     $('main').html('<h1>This is page 3</h1>');
-    $('main').append('<p>Special feature 3</p>')
-    $('main').append('<p>Erbjudandet kvarstår</p>')
+    $('main').append('<p>Special feature 3</p>');
+    $('main').append('<p>Erbjudandet kvarstår</p>');
+    $('main').append('<p>Jamen betala då..</p>');
 
   }else{
     $('main').html('<h1>Welcome to default page</h1>');
